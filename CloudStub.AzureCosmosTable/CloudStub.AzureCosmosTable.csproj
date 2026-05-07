@@ -6,20 +6,21 @@
     <Description>An in-memory implementation of Azure Cloud Storage Services (Microsoft.AzureCosmosTable) useful for testing and local development.</Description>
     <Authors>Andrei Fangli</Authors>
     <Copyright>Andrei Fangli</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageReleaseNotes>
       * Added InMemoryCloudTable
     </PackageReleaseNotes>
     <PackageTags>stub;azure;storage;memory;in-memory;test</PackageTags>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Andrei15193/CloudStub.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Andrei15193/CloudStub.AzureCosmosTable.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE" Pack="true" PackagePath="" />
-    <None Include="..\logo.png" Pack="true" PackagePath="" />
+    <None Include="../logo.png" Pack="true" PackagePath=""/>
+    <None Include="../readme.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <ItemGroup>
@@ -29,5 +30,4 @@
   <ItemGroup>
     <ProjectReference Include="..\CloudStub\CloudStub.csproj" />
   </ItemGroup>
-
 </Project>
