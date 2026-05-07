@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudStub", "CloudStub\Clou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudStub.Tests", "CloudStub.Tests\CloudStub.Tests.csproj", "{CECA7CB9-4C5D-48CC-B5FD-DAB8D3082A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStub.Azure.Cosmos.Table", "CloudStub.Azure.Cosmos.Table\CloudStub.Azure.Cosmos.Table.csproj", "{7D217C2F-CB30-4F1C-9325-5EB439D82C26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStub.AzureCosmosTable", "CloudStub.AzureCosmosTable\CloudStub.AzureCosmosTable.csproj", "{7D217C2F-CB30-4F1C-9325-5EB439D82C26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStub.Azure.Cosmos.Table.Tests", "CloudStub.Azure.Cosmos.Table.Tests\CloudStub.Azure.Cosmos.Table.Tests.csproj", "{7277CF24-31EC-4FAE-A8D8-CBA6ACA9D892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudStub.AzureCosmosTable.Tests", "CloudStub.AzureCosmosTable.Tests\CloudStub.AzureCosmosTable.Tests.csproj", "{7277CF24-31EC-4FAE-A8D8-CBA6ACA9D892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
