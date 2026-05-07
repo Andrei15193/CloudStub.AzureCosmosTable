@@ -1,11 +1,1 @@
-Required Software
------------------
-
-* .NET Core 3 SDK
-* Azure Storage Emulator
-* Visual Studio Code
-
-Additional Software
--------------------
-
-* Azure SDK
+An in-memory implementation of Azure Cloud Storage Services (Microsoft.Azure.Cosmos.Table) useful for testing and local development.
